@@ -1,0 +1,68 @@
+h1.shopmakes {
+    font-size: 2.25em;
+    font-weight: 800;
+}
+
+.shopmakes.listgroupdiv {
+    overflow: scroll;
+    position: relative;
+}
+
+.shopmakes.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.container-fluid.shopmakes {
+    background-color: #F2F2F2;
+}
+
+
+.shopmakes::-webkit-scrollbar {
+    height: 5px;
+    width: 0px;
+}
+
+.shopmakes::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+.shopmakes::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #fff;
+}
+
+.shopmakes.img {
+    width: 50px;
+}
+
+h5.shopmakes{
+    padding-left: 10px;
+    text-wrap: nowrap;
+}
+.shopmakes.form-control{
+    max-width: 400px;
+}
+.shopmakes.btngroup{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.shopmakes.left,
+.shopmakes.right{
+    position: relative;
+    z-index: 100;
+    height: fit-content;
+}
+.shopmakes.right{
+    margin-left: auto;
+}
+.shopmakes.hide{
+    display: none;
+}
+.shopmakes.show{
+    display: block;
+}
+#shopmakesul{
+    width: fit-content;;
+}

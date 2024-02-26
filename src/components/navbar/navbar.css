@@ -1,0 +1,55 @@
+nav{
+    background-color: #1f3e74;
+    color: white;
+    z-index: 1050;
+}
+
+a.nav-link{
+    color: white;
+}
+
+a.nav-link.navlink{    
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 26px;
+}
+
+.companyName{
+    color: white;
+    font-weight: 700;
+    letter-spacing: -0.01rem;
+    font-size: 1.2rem;
+
+}
+.companyTag{
+    color: white;
+    font-size: 0.5em;
+    line-height: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+#offcanvasNavbar-expand-xl {
+    background-color: #1f3e74;
+    border: none;
+    color: white;
+    font-family: "Montserrat",sans-serif;
+}
+button.navbar-toggler,
+button.navbar-toggler.collapsed,
+button.navbar-toggler.collapsed:focus,
+button.navbar-toggler.collapsed,:focus-visible,
+button.btn-close{
+    border: none;
+    color: white;
+    box-shadow: none;
+    align-items: center;
+}
+.fa-circle-user{
+    font-size: 26px;
+}
+.navimagediv{
+    width:60px
+}

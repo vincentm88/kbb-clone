@@ -1,0 +1,27 @@
+h1.shopcatagories{
+    font-size: 2.25em;
+    font-weight: 800;
+}
+.card.shopcatagories{
+    border: none;    
+    min-width: auto;
+}
+.card-title.shopcatagories{
+    font-size: 0.9em;
+    color: gray;
+}
+
+
+.shopcatagories::-webkit-scrollbar {
+    height: 5px;
+    width: 0px;
+  }
+
+  
+.shopcatagories::-webkit-scrollbar-thumb {
+    background-color: gray; 
+  }
+  
+.shopcatagories::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #fff; 
+  }

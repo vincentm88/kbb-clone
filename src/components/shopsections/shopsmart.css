@@ -1,0 +1,51 @@
+h1.shopsmart{
+    font-size: 2.25em;
+    font-weight: 800;
+}
+h4.shopsmart{
+    font-size: 1.125em;
+    font-weight: 600;
+}
+.shopsmartcardgroup{
+    gap: 15px;
+}
+.card.shopsmart{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border: none !important;
+}
+.card-footer.shopsmart{
+    border: none !important;
+    background-color: none;
+}
+.card-title.shopsmart{
+    font-size: x-large;
+    padding-left:15px;
+}
+.card-text.shopsmart{
+    font-size: smaller;
+    color: gray;
+}
+.btn-outline-secondary.shopsmart{
+    color: #006BC2;
+    border: solid 3px #006BC2;
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 100%;
+    line-height: 16px;
+}
+
+.btn-outline-secondary.shopsmart:hover{
+    color:white;
+    background-color: #006BC2;
+    border: solid 3px #006BC2;
+}
+.btn-outline-secondary.shopsmart.active{
+    color:white;
+    background-color: #006BC2;
+    border: solid 3px #006BC2;
+}
+
+.listgroupparent{
+    overflow: hidden;
+    position: relative;
+}

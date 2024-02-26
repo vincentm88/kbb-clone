@@ -1,0 +1,91 @@
+.hero{
+    background-color: black;
+    color: white;
+}
+.homeherostack{
+    background-color: #1f3e74;
+    max-width: 500px;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    padding: 1.5em;
+    border-radius: 5px;
+}
+
+h1.homePageHeroTitle{
+    font-size: 60px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    letter-spacing: 0px;
+    line-height: 64px;
+
+}
+
+h1.homePageHeroTitle::after{
+    content:'.';
+    color: #f3bc2a;
+    font-family: serif;
+    font-size: larger;
+}
+
+h4.homePageHeroTag{
+    font-size: 1.5em;
+    line-height: 2.2em;
+
+}
+.navbtn.btn.btn-primary{
+    background-color: #f3bc2a;
+    color: black;
+    border: none;
+    font-size: larger;
+    font-weight: 800;
+}
+.navbtn.btn.btn-secondary{
+    background-color: #006BC2;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.dropdown-toggle.nav-link{
+    height: 100%;
+}
+.dropdown-toggle.nav-link::after{
+    content:none;
+}
+
+.navlink:hover,
+.nav-link.show{
+    background-color: #406cb4;
+    color: white !important;
+
+}
+.navdropdown>.dropdown-menu{
+    margin-top: 0;
+    margin: 0 !important;
+    background-color: #406cb4;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.navdropdown>.dropdown-menu>.dropdown-item{
+    color: white;
+}
+.navdropdown>.dropdown-menu>.dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.363) !important;
+    border-left: solid 5px #1f3e74; 
+}
+
+.navlogin,
+.navlink,
+.navdropdown>.nav-link{
+    
+    align-items: center;
+    display: flex !important;
+    height: 4em !important;
+    padding: 0px 2em !important;
+}
+.navlogin:hover{
+    color: white !important;
+}

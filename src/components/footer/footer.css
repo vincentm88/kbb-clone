@@ -1,0 +1,26 @@
+.container-fluid.footer{
+    background-color: #1f3e74;
+    color: white;
+    text-align: center;
+}
+.footer.flexrowone,
+.footer.flexrowtwo,
+.footer.flexrowthree,
+.footer.flexrowfour{
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+}
+.footer.flexrowone,
+.footer.flexrowtwo{
+    font-size: .9em !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    font-family: sans-serif;
+}
+.flexrowthree{
+    font-size: 1.5em
+}
+.flexrowfour{
+    font-size: .7em
+}
